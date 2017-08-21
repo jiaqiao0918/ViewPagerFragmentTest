@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.viewpagerfragmenttest.MainActivity">
+    <Button
+        android:id="@+id/is_random"
+        android:text="test"
+        android:onClick="click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"/>
+        <View
+            android:background="#0bc15d"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
